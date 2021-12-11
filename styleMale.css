@@ -1,0 +1,70 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, rgb(1, 107, 194) ,rgb(3, 26, 153));
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    display: inline;
+    text-align: center;
+    font-size: 8px;
+    text-decoration: underline;
+    color:blanchedalmond;
+}
+
+h3:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h3:after {
+    color:blanchedalmond;
+}
+
+article {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 130px);
+    grid-template-rows: repeat(4, 130px);
+}
+
+button {
+    border-style: solid;
+    border-width: 4px;
+    background-color: rgb(3, 26, 153);
+    color:blanchedalmond;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(38, 173, 236);
+    cursor: pointer;
+}
+
+button::backdrop {
+    background-color: rgba(38, 173, 236, .4);
+}
+
+h4 {
+    text-align: center;
+    color:blanchedalmond;
+}
+
+span {
+    color:rgb(38, 173, 236);
+}
